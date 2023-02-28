@@ -1,0 +1,255 @@
+@font-face {
+    font-family: opensansR;
+    src: url(font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: opensansB;
+    src: url(font/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: opensansL;
+    src: url(font/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: opensansSB;
+    src: url(font/OpenSans-SemiBold.ttf);
+}
+
+body{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+/* header */
+header{
+    padding-bottom: 22px;
+}
+
+.logo{
+    margin-top: 22px;
+    margin-left: 200px;
+}
+
+.menu li {
+    list-style-type: none;
+    font-family: opensansR;
+    font-weight: 400;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    gap: 89px;
+    margin-left: 477px;
+}
+
+.headerFlex{
+    display: flex;
+    align-items: center;
+}
+
+.CallHeader{
+    width: 181.23px;
+    background: #81B93D;
+    box-shadow: 0px 0px 30px #81B93D;
+    border-radius: 13px;
+    border: none;
+    color: white;
+    font-family: opensansSB;
+    padding: 10px 30px;
+}
+
+/* main */
+
+/* Главный блок */
+
+.glavniyBlock{
+    background: url(img/mainImg\ 1.png);
+    width: 1600px;
+    padding-bottom: 78px;
+}
+
+.Perm{
+    font-family: opensansL;
+    width: 210px;
+    font-size: 18px;
+    color: white;
+    margin-left: 200px;
+    padding-top: 148px;
+}
+
+.name{
+    font-family: opensansB;
+    width: 321px;
+    font-size: 40px;
+    color: white;
+    margin-left: 200px;
+    padding-top: 5px;
+}
+
+.opisanie{
+    font-family: opensansL;
+    width: 283px;
+    font-size: 24px;
+    margin-left: 200px;
+    padding-top: 15px;
+    color: white;
+    font-weight: 300;
+}
+
+.posetit{
+    width: 181.23px;
+    background: #81B93D;
+    box-shadow: 0px 0px 30px #81B93D;
+    border-radius: 13px;
+    border: none;
+    color: white;
+    font-family: opensansSB;
+    padding: 10px 30px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+/* Добро пожаловать */
+.mainT {
+    font-family: opensansB;
+    margin: 0 auto;
+    width: 485px;
+    margin-top: 80px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.secondT{
+    font-family: opensansR;
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 79px;
+    line-height: 144%;
+    font-size: 20px;
+}
+
+/* Выставочные сады */
+.VistavochnieSadi{
+    background: url(img/image\ 1.png);
+    width: 1600px;
+    padding-bottom: 31px;
+}
+
+.mainText{
+    font-family: opensansR;
+    color: white;
+    font-size: 40px;
+    margin: 0 auto;
+    font-weight: 400;
+    width: 373px;
+    margin-top: 17px;
+    border-bottom: 1px solid #81B93D;
+}
+
+.bg{
+    background: url(img/20220721_094316\ 1.png) no-repeat;
+    margin: 0 auto;
+    width: 819px;
+    margin-top: 8px;
+    padding-bottom: 461px;
+}
+
+/* Новости */
+.newsText{
+    font-family: opensansR;
+    font-size: 40px;
+    margin: 0 auto;
+    font-weight: 400;
+    width: 165px;
+    margin-top: 54px;
+    border-bottom: 1px solid #81B93D;
+}
+
+.goNews{
+    width: 181.23px;
+    background: #81B93D;
+    box-shadow: 0px 0px 30px #81B93D;
+    border-radius: 13px;
+    border: none;
+    color: white;
+    font-family: opensansSB;
+    padding: 10px 30px;
+    margin-top: 25px;
+    margin-left: 130px;
+}
+
+.news{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.novost{
+    display: flex;
+    padding-top: 28px;
+    padding-bottom: 38px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.texts{
+    margin-left: 37px;
+}
+
+.namenews{
+    font-family: opensansSB;
+    text-align: center;
+    font-size: 26px;
+}
+
+.textnews{
+    font-family: opensansR;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* footer */
+footer{
+    background: url(img/footer.png);
+}
+
+.podval{
+    display: flex;
+    color: white;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.item1{
+    font-family: opensansL;
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-top: 91px;
+    margin-bottom: 91px;
+}
+
+.item2{
+    text-transform: uppercase;
+    font-family: opensansB;
+    font-size: 40px;
+    margin-top: 81px;
+    margin-bottom: 81px;
+}
+
+.item3{
+    font-family: opensansL;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 91px;
+    margin-bottom: 91px;
+    margin-right: 50px;
+}
